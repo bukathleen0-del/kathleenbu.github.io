@@ -321,7 +321,7 @@ function render() {
       <button data-act="tab" data-val="venue" class="${state.tab==="venue"?"active":""}">Venue Map</button>
       <button data-act="tab" data-val="schedule" class="${state.tab==="schedule"?"active":""}">Schedule</button>
       <button data-act="tab" data-val="notices" class="${state.tab==="notices"?"active":""}">Announcements${notifCount}</button>
-      <button data-act="tab" data-val="concern" class="${state.tab==="concern"?"active":""}">Get help</button>
+      <button data-act="tab" data-val="concern" class="${state.tab==="concern"?"active":""}">Get Help</button>
     </div>`;
 
     if (state.tab === "map") {
