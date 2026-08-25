@@ -310,8 +310,8 @@ function render() {
   html += `<div class="masthead">
     <h1>TMUN Companion</h1>
     <nav>
-      <button data-act="view" data-val="delegate" class="${state.view === "delegate" ? "active" : ""}">Delegate view</button>
-      <button data-act="view" data-val="staff" class="${state.view === "staff" ? "active" : ""}">Staff view</button>
+      <button data-act="view" data-val="delegate" class="${state.view === "delegate" ? "active" : ""}">Delegate View</button>
+      <button data-act="view" data-val="staff" class="${state.view === "staff" ? "active" : ""}">Staff View</button>
     </nav>
   </div>`;
 
